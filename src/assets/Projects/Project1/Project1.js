@@ -11,7 +11,7 @@ import RelatedBooks from "./Related Books.png";
 import StudentAllBooks from "./Student All Books.png";
 import StudentBook from "./Student Book.png";
 import StudentFines from "./Student Fines.png";
-import StudentIssues from "./Student Issues.png";
+import StudentIssues from "./Student Issue.png";
 import StudentRequest from "./Student Request.png";
 import ForgetPassoword from "./Forget Password.png";
 
