@@ -9,7 +9,9 @@ const Footer = () => {
     <footer>
       <div className="container m-auto flex justify-between px-4 py-8">
         <div>
-          <p className="text-gray-300 text-sm">Copyright @2024</p>
+          <p className="text-gray-300 text-sm">
+            Copyright @{new Date().getFullYear()}
+          </p>
         </div>
         <div>
           <ul className="flex gap-4">

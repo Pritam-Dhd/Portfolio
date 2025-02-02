@@ -17,8 +17,8 @@ const ProjectCard = ({ project }) => {
       <div className="border border-gray-500 rounded-md overflow-hidden transition-transform transform hover:scale-105 cursor-pointer">
         <div onClick={handleImageClick}>
           <img
-            src={project.image}
-            alt={project.title}
+            src={project.image[0].image}
+            alt={project.title[0].namme}
             className="w-full h-72 object-cover"
           />
           <h3 className="text-2xl font-semibold mt-5 px-4">{project.title}</h3>
@@ -50,7 +50,7 @@ const ProjectCard = ({ project }) => {
       <Modal
         isOpen={isModalOpen}
         onClose={closeModal}
-        imageSrc={project.image}
+        images={project.image}
         title={project.title}
         description={project.description}
       />
